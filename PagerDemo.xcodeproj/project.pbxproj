@@ -14,6 +14,9 @@
 		18634F75244D475A0094A140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18634F74244D475A0094A140 /* main.m */; };
 		18634F7F244D475A0094A140 /* PagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18634F7E244D475A0094A140 /* PagerDemoTests.m */; };
 		18634F8A244D475A0094A140 /* PagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18634F89244D475A0094A140 /* PagerDemoUITests.m */; };
+		18634F9A244D594C0094A140 /* CUSSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18634F99244D594C0094A140 /* CUSSegmentView.m */; };
+		18634F9D244D598A0094A140 /* CUSPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18634F9C244D598A0094A140 /* CUSPagerView.m */; };
+		18634FA3244D6D850094A140 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18634FA2244D6D850094A140 /* ItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,12 @@
 		18634F85244D475A0094A140 /* PagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18634F89244D475A0094A140 /* PagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerDemoUITests.m; sourceTree = "<group>"; };
 		18634F8B244D475A0094A140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18634F98244D594C0094A140 /* CUSSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUSSegmentView.h; sourceTree = "<group>"; };
+		18634F99244D594C0094A140 /* CUSSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUSSegmentView.m; sourceTree = "<group>"; };
+		18634F9B244D598A0094A140 /* CUSPagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUSPagerView.h; sourceTree = "<group>"; };
+		18634F9C244D598A0094A140 /* CUSPagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUSPagerView.m; sourceTree = "<group>"; };
+		18634FA1244D6D850094A140 /* ItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		18634FA2244D6D850094A140 /* ItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +108,13 @@
 		18634F61244D47550094A140 /* PagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18634F97244D4A870094A140 /* CUSPagerView */,
 				18634F62244D47550094A140 /* AppDelegate.h */,
 				18634F63244D47550094A140 /* AppDelegate.m */,
 				18634F68244D47550094A140 /* ViewController.h */,
 				18634F69244D47550094A140 /* ViewController.m */,
+				18634FA1244D6D850094A140 /* ItemViewController.h */,
+				18634FA2244D6D850094A140 /* ItemViewController.m */,
 				18634F6E244D475A0094A140 /* Assets.xcassets */,
 				18634F70244D475A0094A140 /* LaunchScreen.storyboard */,
 				18634F73244D475A0094A140 /* Info.plist */,
@@ -127,6 +139,17 @@
 				18634F8B244D475A0094A140 /* Info.plist */,
 			);
 			path = PagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		18634F97244D4A870094A140 /* CUSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				18634F98244D594C0094A140 /* CUSSegmentView.h */,
+				18634F99244D594C0094A140 /* CUSSegmentView.m */,
+				18634F9B244D598A0094A140 /* CUSPagerView.h */,
+				18634F9C244D598A0094A140 /* CUSPagerView.m */,
+			);
+			path = CUSPagerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18634F9A244D594C0094A140 /* CUSSegmentView.m in Sources */,
+				18634FA3244D6D850094A140 /* ItemViewController.m in Sources */,
 				18634F6A244D47550094A140 /* ViewController.m in Sources */,
 				18634F64244D47550094A140 /* AppDelegate.m in Sources */,
+				18634F9D244D598A0094A140 /* CUSPagerView.m in Sources */,
 				18634F75244D475A0094A140 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
